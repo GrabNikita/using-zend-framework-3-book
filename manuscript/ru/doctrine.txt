@@ -1437,8 +1437,6 @@ $post = $entityManager->getRepository(Post::class)->find(1);
 В следующем примере кода мы используем метод `findBy()` для выбора 50 последних опубликованных
 постов:
 
-In the code example below, we use the `findBy()` method for selecting 50 most recent published posts:
-
 {line-numbers=off, lang=php}
 ~~~
 // Находим 50 последних опубликованных постов
